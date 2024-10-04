@@ -11856,9 +11856,20 @@ body {
   color: white;
 }
 
+.secondary {
+  color: #978e81;
+}
+
 .card img {
-  max-width: 200px;
+  max-width: 250px;
   object-fit: cover;
+}
+
+.testimonio img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #978e81;
 }
 
 /*# sourceMappingURL=main.css.map */
