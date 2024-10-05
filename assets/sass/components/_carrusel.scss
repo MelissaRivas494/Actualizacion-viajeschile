@@ -1,0 +1,12 @@
+//Carrusel
+@media (min-width: 768px) {
+    #carouselExampleCaptions .carousel-item {
+        height: 500px; 
+    }
+}
+
+@media (max-width: 767.98px) {
+    #carouselExampleCaptions .carousel-item {
+        height: 300px; 
+    }
+}

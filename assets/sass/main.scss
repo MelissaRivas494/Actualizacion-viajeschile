@@ -1,38 +1,16 @@
-//Variables
-$background-color: #212529;
-$primary: white;
-$secondary: #978e81;
 
-//import
+
+@import 'abstracts/variables';
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+@import 'base/base';
+@import 'base/colors';
+@import 'base/typography';
 
-//Estilos
+@import 'components/cards';
+@import 'components/carrusel';
+@import 'components/testimonios';
 
-body {
-    background-color: $background-color;
-}
 
-.navbar a {
-    color: $primary;
-}
-
-.primary {
-    color: $primary;
-}
-
-.secondary {
-    color: $secondary;
-}
-
-.card img {
-    max-width: 250px;
-    object-fit: cover;
-}
-
-.testimonio img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 2px solid $secondary;
-}
+@import 'layout/navbar';

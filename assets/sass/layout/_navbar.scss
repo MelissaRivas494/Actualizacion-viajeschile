@@ -1,0 +1,15 @@
+//Navbar
+.navbar a {
+    color: $primary;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
