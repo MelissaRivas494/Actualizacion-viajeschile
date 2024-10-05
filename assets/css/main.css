@@ -11906,11 +11906,33 @@ body {
     height: 300px;
   }
 }
+.nosotros {
+  color: white;
+}
+
+.nosotros__text {
+  font-size: 1rem;
+}
+
+.testimonio {
+  color: white;
+}
+
+.testimonio__review {
+  font-style: italic;
+  color: #978e81;
+}
+
+.testimonio__name {
+  color: #978e81;
+}
+
 .testimonio img {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border: 2px solid #978e81;
+  border-radius: 50%;
 }
 
 .navbar a {
