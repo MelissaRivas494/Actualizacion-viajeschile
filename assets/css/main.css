@@ -11880,11 +11880,20 @@ body {
 }
 
 .card-title {
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 .card-text {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+}
+
+.card-text strong {
+  font-size: 0.85rem;
+}
+
+.price {
+  background-color: #f5f5f5;
+  padding: 8px;
 }
 
 @media (min-width: 768px) {
